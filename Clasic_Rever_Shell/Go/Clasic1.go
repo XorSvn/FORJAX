@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	LHOST      = "192.168.0.8"
+	LHOST      = "IP_ADDRESS"
 	LPORT      = 443
 	BUFFERRSize = 1024
 )
