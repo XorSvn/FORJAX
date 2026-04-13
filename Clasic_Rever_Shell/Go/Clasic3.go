@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-    host := "192.168.0.8"
+    host := "IP_ADDRESS"
     port := 443
 
     client, err := net.Dial("tcp", fmt.Sprintf("%s:%d", host, port))
