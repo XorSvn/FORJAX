@@ -151,13 +151,13 @@ Al ejecutarlo verás el menú principal:
 
 ## 🧪 Carpeta de pruebas
 
-La carpeta `pruebas/` incluye un script simple por cada lenguaje soportado. Puedes usarlos para verificar que ForjaX funciona correctamente en tu sistema antes de usar tus propios archivos.
+La carpeta `ReverShell/` incluye un script simple por cada lenguaje soportado. Puedes usarlos para verificar que ForjaX funciona correctamente en tu sistema antes de usar tus propios archivos.
 
-**Ejemplo de uso con la carpeta de pruebas:**
+**Ejemplo de uso con la carpeta de ReverShell:**
 ```bash
-# Empaquetar el script de prueba de Python
+# Empaquetar el script de ReverShell de Python
 python forjax.py
-# → Opcion 1 → Python → pruebas/prueba.py
+# → Opcion 1 → Python → ReverShell/Python/Clasic1.py
 ```
 
 ---
