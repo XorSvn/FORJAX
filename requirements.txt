@@ -1,0 +1,86 @@
+# ══════════════════════════════════════════════════
+#  ForjaX v1.0.0 - requirements.txt
+#  by XorSvn
+# ══════════════════════════════════════════════════
+#
+#  Tienes dos opciones para instalar las dependencias:
+#
+#  ┌─────────────────────────────────────────────────┐
+#  │  OPCION A — Instalacion automatica (recomendada) │
+#  └─────────────────────────────────────────────────┘
+#
+#  En Windows ejecuta:
+#    install.bat
+#
+#  En Linux / Mac ejecuta:
+#    chmod +x install.sh
+#    ./install.sh
+#
+#  El instalador detecta que tienes disponible y
+#  descarga todo lo necesario automaticamente.
+#
+#  ┌─────────────────────────────────────────────────┐
+#  │  OPCION B — Instalacion manual por lenguaje      │
+#  └─────────────────────────────────────────────────┘
+#
+#  Solo instala los lenguajes que vayas a usar.
+#  No es necesario instalar todos.
+#
+# ──────────────────────────────────────────────────
+#  DEPENDENCIA PIP (requerida siempre)
+# ──────────────────────────────────────────────────
+
+pyinstaller>=6.0
+
+# ──────────────────────────────────────────────────
+#  [PYTHON] — ya cubierto con pyinstaller arriba
+#  pip install pyinstaller
+#
+#  [BASH]
+#    Windows : instala Git Bash → https://git-scm.com
+#              o activa WSL     → https://aka.ms/wsl
+#    Linux   : sudo apt install shc
+#    Mac     : brew install shc
+#
+#  [C]
+#    Windows : instala MinGW-w64 → https://winlibs.com
+#    Linux   : sudo apt install gcc build-essential
+#    Mac     : brew install gcc
+#
+#  [GO]
+#    Windows / Linux / Mac → https://go.dev/dl/
+#    Linux   : sudo apt install golang-go
+#    Mac     : brew install go
+#
+#  [JAVA]
+#    JDK (requerido):
+#      Windows / Linux / Mac → https://adoptium.net
+#      Linux   : sudo apt install default-jdk
+#      Mac     : brew install openjdk
+#    Launch4j (opcional, para generar .exe desde .jar):
+#      https://launch4j.sourceforge.net
+#
+#  [JAVASCRIPT]
+#    Node.js (requerido):
+#      Windows / Linux / Mac → https://nodejs.org
+#      Linux   : sudo apt install nodejs npm
+#      Mac     : brew install node
+#    pkg (empaquetador a .exe):
+#      npm install -g pkg
+#
+#  [PHP]
+#    Windows : https://www.php.net/downloads
+#    Linux   : sudo apt install php-cli
+#    Mac     : brew install php
+#    IMPORTANTE: asegurate de tener phar.readonly=Off
+#                en tu archivo php.ini
+#
+#  [POWERSHELL] — solo Windows
+#    Ejecuta esto en PowerShell como Administrador:
+#      Install-Module ps2exe -Scope CurrentUser -Force
+#
+# ══════════════════════════════════════════════════
+#  REQUISITO MINIMO: Python 3.7+
+#  Descarga Python: https://www.python.org/downloads/
+#  (marca "Add Python to PATH" al instalar en Windows)
+# ══════════════════════════════════════════════════
