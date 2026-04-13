@@ -58,19 +58,36 @@
 
 ```
 forjax/
-├── forjax.py            ← Software principal
-├── requirements.txt     ← Guia de instalacion de dependencias
-├── install.bat          ← Instalador automatico para Windows
-├── install.sh           ← Instalador automatico para Linux / Mac
-└── Clasic_Rever_Shell/             ← Scripts de ReverShell por lenguaje
-    ├── prueba.sh/        ← ReverShell en Bash
-    ├── prueba.c/         ← ReverShell en C
-    ├── prueba.go/        ← ReverShell en Go
-    ├── prueba.java/      ← ReverShell en Java
-    ├── prueba.js/        ← ReverShell en JavaScript
-    ├── prueba.php/       ← ReverShell en PHP
-    ├── prueba.ps1/       ← ReverShell en PowerShell
-    └── prueba.py/        ← ReverShell en Python
+├── forjax.py                 # Software principal
+├── requirements.txt          # Dependencias del proyecto
+├── install.bat               # Instalador automático (Windows)
+├── install.sh                # Instalador automático (Linux / macOS)
+│
+├── reverse_shells/           # Colección de reverse shells por lenguaje
+│   ├── bash/
+│   │   └── clasic1.sh
+│   │
+│   ├── c/
+│   │   └── clasic1.c
+│   │
+│   ├── go/
+│   │   └── clasic1.go
+│   │
+│   ├── java/
+│   │   └── clasic1.java
+│   │
+│   ├── javascript/
+│   │   └── clasic1.js
+│   │
+│   ├── php/
+│   │   └── clasic1.php
+│   │
+│   ├── powershell/
+│   │   └── clasic1.ps1
+│   │
+│   └── python/
+│       └── clasic1.py
+└── README.md
 ```
 
 > 📂 La carpeta `ReverShell/` contiene scripts simples listos para usar y probar que ForjaX empaqueta y ofusca correctamente cada lenguaje.
