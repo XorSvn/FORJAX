@@ -62,18 +62,18 @@ forjax/
 ├── requirements.txt     ← Guia de instalacion de dependencias
 ├── install.bat          ← Instalador automatico para Windows
 ├── install.sh           ← Instalador automatico para Linux / Mac
-└── pruebas/             ← Scripts de prueba por lenguaje
-    ├── prueba.sh        ← Hola Mundo en Bash
-    ├── prueba.c         ← Hola Mundo en C
-    ├── prueba.go        ← Hola Mundo en Go
-    ├── prueba.java      ← Hola Mundo en Java
-    ├── prueba.js        ← Hola Mundo en JavaScript
-    ├── prueba.php       ← Hola Mundo en PHP
-    ├── prueba.ps1       ← Hola Mundo en PowerShell
-    └── prueba.py        ← Hola Mundo en Python
+└── Clasic_Rever_Shell/             ← Scripts de ReverShell por lenguaje
+    ├── prueba.sh/        ← ReverShell en Bash
+    ├── prueba.c/         ← ReverShell en C
+    ├── prueba.go/        ← ReverShell en Go
+    ├── prueba.java/      ← ReverShell en Java
+    ├── prueba.js/        ← ReverShell en JavaScript
+    ├── prueba.php/       ← ReverShell en PHP
+    ├── prueba.ps1/       ← ReverShell en PowerShell
+    └── prueba.py/        ← ReverShell en Python
 ```
 
-> 📂 La carpeta `pruebas/` contiene scripts simples listos para usar y probar que ForjaX empaqueta y ofusca correctamente cada lenguaje.
+> 📂 La carpeta `ReverShell/` contiene scripts simples listos para usar y probar que ForjaX empaqueta y ofusca correctamente cada lenguaje.
 
 ---
 
