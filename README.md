@@ -19,6 +19,17 @@
 
 </div>
 
+
+https://github.com/user-attachments/assets/53f59a3f-6229-4a27-abc9-777defb80ef7
+
+
+
+
+
+
+
+
+
 ---
 
 ## ¿Qué es ForjaX?
