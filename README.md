@@ -26,7 +26,23 @@
 **ForjaX** es una herramienta de línea de comandos desarrollada en Python que permite empaquetar scripts de múltiples lenguajes de programación en archivos ejecutables, así como ofuscar su código fuente para protegerlo de miradas no autorizadas. Presenta una interfaz interactiva con colores ANSI, menús guiados y detección automática de herramientas disponibles en el sistema.
 
 ---
+## 🛡️ Enfoque en ciberseguridad
 
+Como parte del proyecto, desarrollé un entorno de pruebas donde utilizo ForjaX en escenarios controlados de pentesting. En el video adjunto muestro una simulación en laboratorio donde, a través de un ejecutable generado, se obtiene acceso remoto a una máquina Windows 11.
+
+El objetivo de esta demostración NO es el uso malicioso, sino evidenciar:
+
+→ Qué tan fácil puede ser ejecutar archivos sin verificar su origen
+
+→ Cómo operan ciertas técnicas reales utilizadas en ataques
+
+→ La importancia de la concienciación en seguridad ofensiva y defensiva
+
+ForjaX incluye una sección de pruebas (reverse shells) pensada exclusivamente para entornos de laboratorio y aprendizaje en ciberseguridad.
+
+>⚠️ Este proyecto está orientado a uso ético: pentesting, investigación y educación
+
+---
 ## ✨ Características
 
 - 🔥 Empaqueta scripts a ejecutables `.exe`, `.jar`, `.phar` o `.bat`
